@@ -39,7 +39,7 @@ KID | 4.141 ± 0.343
 
 Qualitatively, the generated images are shown in the following figure:
 
-<p align="center"> <img src="https://github.com/reshalfahsi/medical-image-generation/blob/master/assets/qualitative_result.png" alt="qualitative_result" > <br /> Generated samples on the BloodMNIST dataset (left) and a montage of the actual BloodMNIST dataset (right) </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/medical-image-generation/blob/master/assets/qualitative_result.png" alt="qualitative_result" > <br /> Unconditional progressive generation on the BloodMNIST dataset (left) and a montage of the actual BloodMNIST dataset (right) </p>
 
 
 ## Credit
