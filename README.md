@@ -20,19 +20,17 @@ To see the code under the hood, visit this [link](https://github.com/reshalfahsi
 
 ## Quantitative Result
 
-Fréchet Inception Distance (FID) and Kernel Inception Distance (KID) are leveraged to quantitatively measure the performance of the diffusion model, which is presented below.
+Fréchet Inception Distance (FID) is leveraged to quantitatively measure the performance of the diffusion model, which is presented below.
 
 Evaluation metric | Score
 ------------ | -------------
-FID |  5.039
-KID | 4.141 ± 0.343
+FID |  4.071
 
 
 ## Evaluation Metric Curve
 
 <p align="center"> <img src="https://github.com/reshalfahsi/medical-image-generation/blob/master/assets/loss_curve.png" alt="loss_curve" > <br /> Loss of the model at the training stage. </p>
 <p align="center"> <img src="https://github.com/reshalfahsi/medical-image-generation/blob/master/assets/fid_curve.png" alt="fid_curve" > <br /> FID on the training and validation sets. </p>
-<p align="center"> <img src="https://github.com/reshalfahsi/medical-image-generation/blob/master/assets/kid_curve.png" alt="kid_curve" > <br /> KID on the training and validation sets. </p>
 
 
 ## Qualitative Result
@@ -45,6 +43,8 @@ Qualitatively, the generated images are shown in the following figure:
 ## Credit
 
 - [A Diffusion Model from Scratch in Pytorch](https://colab.research.google.com/drive/1sjy9odlSSy0RBVgMTgP7s99NXsqglsUL)
+- [pytorch-ddpm](https://github.com/hkproj/pytorch-ddpm)
+- [Diffusion Models](https://github.com/dome272/Diffusion-Models-pytorch)
 - [MedMNIST](https://medmnist.com/)
 - [Denoising Diffusion Probabilistic Models](https://arxiv.org/pdf/2006.11239.pdf)
 - [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/pdf/2105.05233.pdf)
